@@ -1,8 +1,11 @@
 # Teste 2 - Método Simplex - Pyomo Programação Matemática
 
 **Instrução 1:** Resolver os problemas utilizando Python e a biblioteca Pyomo. Para mais informações sobre a biblioteca, consulte a [documentação oficial do Pyomo](https://pyomo.readthedocs.io/en/stable/).
+
 **Instrução 2:** Baixe o solver GLPK para conseguir executar as funções a função "solve". No Windows baixe a versão 4.65 com a extenção .gz no site [GLPK GNU](https://www-gnu-org.translate.goog/software/glpk/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc). Configure o Path nas variaveis de ambiente com o caminho para a pasta win64.
-**Instrução 3:** Crie um ambiente Virtual e execute o arquivo requirements.txt para baixar as bibliotecas necessárias
+
+**Instrução 3:** Crie um ambiente Virtual e execute o arquivo requirements.txt para baixar as bibliotecas necessárias.
+
 ---
 
 ## Questão 1
