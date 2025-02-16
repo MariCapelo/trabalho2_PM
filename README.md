@@ -1,7 +1,8 @@
 # Teste 2 - Método Simplex - Pyomo Programação Matemática
 
-**Instruções:** Resolver os problemas utilizando Python e a biblioteca Pyomo. Para mais informações sobre a biblioteca, consulte a [documentação oficial do Pyomo](https://pyomo.readthedocs.io/en/stable/).
-
+**Instrução 1:** Resolver os problemas utilizando Python e a biblioteca Pyomo. Para mais informações sobre a biblioteca, consulte a [documentação oficial do Pyomo](https://pyomo.readthedocs.io/en/stable/).
+**Instrução 2:** Baixe o solver GLPK para conseguir executar as funções a função "solve". No Windows baixe a versão 4.65 com a extenção .gz no site [GLPK GNU](https://www-gnu-org.translate.goog/software/glpk/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc). Configure o Path nas variaveis de ambiente com o caminho para a pasta win64.
+**Instrução 3:** Crie um ambiente Virtual e execute o arquivo requirements.txt para baixar as bibliotecas necessárias
 ---
 
 ## Questão 1
@@ -9,14 +10,14 @@
 Considere o seguinte problema de Programação Linear (PL):
 
 **Maximizar**  
-\( z = x_1 + x_2 + 3x_3 + 2x_4 \)
+\( z = x1 + x2 + 3x3 + 2x4 \)
 
 **Sujeito a:**  
-\( x_1 + 2x_2 - x_3 + 5x_4 \leq 4 \)  
-\( 5x_1 - 2x_2 + 6x_4 \leq 8 \)  
-\( 2x_1 + 3x_2 - 2x_3 + 3x_4 \leq 3 \)  
-\( -x_1 + x_3 + 2x_4 \leq 0 \)  
-\( x_1, x_2, x_3, x_4 \geq 0 \)
+\( x1 + 2x2 - x3 + 5x4 <= 4 \)  
+\( 5x1 - 2x2 + 6x4 <=\)  
+\( 2x_1 + 3x_2 - 2x_3 + 3x_4 <= 3 \)  
+\( -x_1 + x_3 + 2x_4 <= 0 \)  
+\( x_1, x_2, x_3, x_4 >= 0 \)
 
 **Tarefa:**  
 Resolva o problema mostrando a solução ótima e os valores das variáveis.
@@ -62,5 +63,3 @@ A Gutchi Company fabrica carteiras, estojos de barbear e mochilas. A produção 
    - (g) Você recomendaria a contratação de um trabalhador a mais para o setor de costura a $15 por hora?
 
 ---
-
-**Observação:** Utilize a biblioteca Pyomo para resolver os problemas de programação linear.
